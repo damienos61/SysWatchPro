@@ -1,0 +1,39 @@
+# ═══════════════════════════════════════════════════════
+#  SysWatch Pro — .gitignore
+# ═══════════════════════════════════════════════════════
+
+# ── Exécutable compilé ──────────────────────────────────
+*.exe
+*.dll
+*.obj
+*.o
+
+# ── Logs forensics chiffrés ─────────────────────────────
+*.log
+*.log.old
+
+# ── Fichiers temporaires Windows ────────────────────────
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# ── Fichiers temporaires éditeurs ───────────────────────
+*.swp
+*.swo
+*~
+.vscode/
+.vs/
+*.suo
+*.user
+*.ncb
+*.sdf
+
+# ── Build artifacts ─────────────────────────────────────
+build/
+dist/
+*.map
+
+# ── Fichiers systèmes macOS (si dev multi-plateforme) ───
+.DS_Store
+.AppleDouble
+.LSOverride
